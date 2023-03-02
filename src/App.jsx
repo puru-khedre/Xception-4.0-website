@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="App bg-[url('/images/bg.png')] bg-cover min-h-screen h-[110vh]">
+    <div className="App bg-[url('/images/bg.png')] bg-cover">
       <Navbar className={"fixed top-0"} />
       <Hero />
     </div>

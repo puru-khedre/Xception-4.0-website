@@ -7,7 +7,16 @@ module.exports = {
       navbar: ["Crete Round"],
       majestic: ["Majestic cursive"],
     },
-    extend: {},
+    extend: {
+      animation: {
+        shine: "shine 1500ms",
+      },
+      keyframes: {
+        shine: {
+          "100%": { left: "125%" },
+        },
+      },
+    },
   },
   plugins: [
     plugin(function ({ addVariant, e, postcss }) {
