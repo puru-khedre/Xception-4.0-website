@@ -1,10 +1,14 @@
-import React from "react";
+import { useScrollPosition } from "../hooks/useScrollPosition";
 import NavLinks from "./NavLinks";
 
 const Navbar = ({ className }) => {
+  const scrollPosition = useScrollPosition();
   return (
     <div
-      className={`${className} font-navbar text-[#290505] top-0 left-0 right-0 p-10 flex flex-row items-center justify-between`}
+      className={`${className} font-navbar p-11 text-[#290505] flex flex-row items-center justify-between w-full transition-all ${
+        scrollPosition > 0 &&
+        "py-3 backdrop-filter backdrop-blur-lg bg-opacity-30 bg-[#633d2c] shadow-md"
+      }`}
     >
       <div className="text-5xl font-semibold">
         <h1>Xception 4.0</h1>

@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Majestic cursive';
+    /* src: local('Roboto'), url(./fonts/Roboto-Regular.ttf) format('ttf'); */
+    src: url("/fonts/MajesticPersonalUseRegular-ZVP3B.ttf");
+}
