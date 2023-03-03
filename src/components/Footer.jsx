@@ -14,9 +14,11 @@ const Footer = () => {
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, ducimus animi. Cupiditate perferendis rerum veritatis?</p>
         </div>
         <div className="flex flex-col gap-2">
-          <SocialLinks icon={<FaFacebookSquare className="text-theme-dark text-xl" />} name="Facebook" url={""}/>
-          <SocialLinks icon={<FaInstagramSquare className="text-theme-dark text-xl"/>} name="Instagram" url={""}/>
-          <SocialLinks icon={<FaTwitterSquare className="text-theme-dark text-xl"/>} name="Instagram" url={""}/>
+          <h3 className="text-navbar text-2xl text-theme-dark">Social links</h3>
+          <SocialLinks icon={<FaFacebookSquare
+          e className="text-theme-dark text-xl" />} name="Facebook" />
+          <SocialLinks icon={<FaInstagramSquare className="text-theme-dark text-xl"/>} name="Instagram" />
+          <SocialLinks icon={<FaTwitterSquare className="text-theme-dark text-xl"/>} name="Instagram" />
         </div>
         <div className="flex flex-col gap-2">
           <a className="hover:underline" href="/">
@@ -36,7 +38,6 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      {/* <div className="bg-theme-xdark"/> */}
       <img src="/images/line.svg" className="rotate-180 object-cover w-10/12 mx-auto my-2"/>
     </div>
 
