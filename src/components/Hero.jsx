@@ -3,7 +3,7 @@ import ShineHoverAnimationPlaceholder from "./ShineHoverAnimationPlaceholder";
 
 const Hero = () => {
   return (
-    <div className="pt-36 h-screen">
+    <div className="pt-36 h-screen border">
       <div className="gap-5 w-8/12 mx-auto mt-16 grid grid-cols-[288px_1fr]">
         <div className="w-72 h-72">
           <ShineHoverAnimationPlaceholder>

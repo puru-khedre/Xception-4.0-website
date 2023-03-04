@@ -32,7 +32,11 @@ const myColors = {
   rose: colors.rose,
 };
 module.exports = {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
     backgroundSize: {
       auto: "auto",
@@ -91,6 +95,7 @@ module.exports = {
     },
   },
   plugins: [
+    // require("flowbite/plugin"),
     plugin(function ({ addVariant, e, postcss }) {
       addVariant("firefox", ({ container, separator }) => {
         const isFirefoxRule = postcss.atRule({

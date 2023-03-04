@@ -19,7 +19,7 @@ const Navbar = ({ className }) => {
       </div>
       <div className="hidden md:flex flex-row items-center gap-4 text-2xl">
         <NavLinks name={"Home"} current />
-        <NavLinks name={"Sponcers"} />
+        <NavLinks name={"Sponsers"} />
         <NavLinks name={"Events"} />
         <NavLinks name={"Merchandise"} />
         <NavLinks name={"About Us"} />
