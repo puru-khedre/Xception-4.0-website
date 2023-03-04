@@ -9,7 +9,7 @@ import SocialLinks from "./SocialLinks";
 const Footer = () => {
   return (
     <div className="w-full py-3 backdrop-filter backdrop-blur-sm bg-opacity-60 bg-theme-light shadow-md">
-      <div className="w-9/12 mx-auto flex flex-col gap-2 md:gap-0 md:flex-row text-theme-xdark font-navbar text-lg justify-between">
+      <div className="w-9/12 mx-auto flex flex-col gap-4 md:gap-6 md:flex-row text-theme-xdark font-navbar text-lg justify-between">
         <div className="w-full md:w-1/2">
           <h2 className="font-semibold text-theme-dark text-2xl">
             Xception 4.0, 2023
@@ -24,7 +24,7 @@ const Footer = () => {
             ducimus animi. Cupiditate perferendis rerum veritatis?
           </p>
         </div>
-        <div className="w-full md:w-1/2 flex flex-col md:flex-row">
+        <div className="w-full md:w-1/2 flex flex-col justify-between md:flex-row">
           <div className="flex flex-col gap-2">
             <h3 className="text-navbar text-2xl text-theme-dark">
               Social links
